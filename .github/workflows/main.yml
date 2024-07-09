@@ -39,10 +39,4 @@ jobs:
           push: true
           tags: elow1111/devops-example-app:latest
 
-      - name: Build and push caddy
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          file: services/caddy/Dockerfile
-          push: true
-          tags: elow1111/devops-example-caddy:latest
+
